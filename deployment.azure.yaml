@@ -6,7 +6,11 @@ spec:
   selector: 
     matchLabels: 
       app: angular 
+<<<<<<< HEAD
   replicas: 1 # tells deployment to run 2 pods matching the template 
+=======
+  replicas: 2 # tells deployment to run 2 pods matching the template 
+>>>>>>> 1186176dff1e68a474f342e31ce6d00114ca79fa
   template:
     metadata: 
       labels: 
